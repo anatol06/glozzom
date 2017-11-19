@@ -1,5 +1,8 @@
 @import url(bootstrap.css);
 @import url(font-awesome.min.css);
+body {
+  overflow-x: hidden; }
+
 .navbar .nav-link {
   font-size: 14px;
   text-transform: uppercase;
@@ -23,3 +26,24 @@
 .carousel-image-3 {
   background: url("../img/image3.jpg");
   background-size: cover; }
+
+.fa {
+  font-size: 55px; }
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/lights.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white; }
+
+.dark-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
